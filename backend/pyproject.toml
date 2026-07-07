@@ -1,0 +1,17 @@
+[project]
+name = "agetech-comic-backend"
+version = "0.1.0"
+description = "AgeTech Comic - AI 樂齡漫畫日記 LINE Bot 後端"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.139.0",
+    "httpx>=0.28.1",
+    "line-bot-sdk>=3.25.0",
+    "pydantic-settings>=2.14.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

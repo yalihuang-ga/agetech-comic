@@ -1,0 +1,28 @@
+# 依環境
+.DS_Store
+.env
+*.local
+
+# Python / uv (backend)
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node / Next.js (frontend)
+node_modules/
+.next/
+out/
+build/
+next-env.d.ts
+
+# 編輯器
+.idea/
+.vscode/
+*.swp
+
+# 日誌
+*.log
+npm-debug.log*
