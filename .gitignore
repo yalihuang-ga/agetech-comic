@@ -27,6 +27,13 @@ next-env.d.ts
 *.log
 npm-debug.log*
 
+# 內部機敏文件——本 repo 公開，切勿入版控（競賽簡章摘要與原始 PDF）
+docs/competition-brief.md
+*.pdf
+
+# 個人 Claude 工作區設定與 sub-agent（暫不共享）
+.claude/
+
 # PocketBase 執行期資料（DB + 上傳圖檔，勿入版控；schema 走 pb_migrations）
 pocketbase/pb_data/
 pocketbase/pocketbase
